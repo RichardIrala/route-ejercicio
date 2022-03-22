@@ -1,5 +1,8 @@
+.principal-container {
+  /* Este contiene el ias y su ouput. Ias esta separado del output adentro de principal container */
+}
 .ias-all-content-container {
-  background-color: red;
+  /* background-color: red; */
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -11,4 +14,14 @@
 .ias__button {
   width: 100%;
   height: 61px;
+}
+.ias__button--inbox {
+  background-color: #393939;
+}
+.ias__button--sent {
+  background-color: #888888;
+}
+.output-inbox-and-sent {
+  background-color: #fff59b;
+  height: 100vh;
 }

@@ -18,6 +18,8 @@
   align-items: center;
 }
 .header--logo {
+  width: 62px;
+  padding-top: 20px;
 }
 .header--input-container {
 }

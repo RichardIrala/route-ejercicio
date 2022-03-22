@@ -1,5 +1,4 @@
 import { handlerRoute } from "./handle-router";
-import map from "lodash/map";
 (function () {
   // const sit1Button = document.querySelector(".sit-1");
   // const sit2Button = document.querySelector(".sit-2");
@@ -14,6 +13,6 @@ import map from "lodash/map";
   window.addEventListener("load", () => {
     handlerRoute(location.pathname);
   });
-  console.log(map);
+
   // console.log(location.pathname);
 })();

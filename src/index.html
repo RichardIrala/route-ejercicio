@@ -8,30 +8,14 @@
     <link rel="stylesheet" href="./components/header.css" />
     <link rel="stylesheet" href="./components/bias.css" />
     <script defer type="module" src="./index.ts"></script>
-    <script defer src="./components/header.js"></script>
+    <script defer type="module" src="./components/header.js"></script>
     <script defer src="./components/bias.js"></script>
   </head>
   <body>
     <div class="header-container"></div>
-    <div class="imbox-and-sent">
-      <div class="ias-all-content-container">
-        <div class="ias-button-container">
-          <button class="ias__button">Inbox</button>
-        </div>
-        <div class="ias-button-container">
-          <button class="ias__button">Sent</button>
-        </div>
-      </div>
-      <div class="output-ias">
-        <div>
-          <div class="output-iass--title-container">
-            ESTO SE AÑADE CON LOS CLICKS
-          </div>
-          <div class="output-ias--content-container">
-            Se añade con los clicks de arriba x2
-          </div>
-        </div>
-      </div>
+    <div class="principal-container">
+      <div class="inbox-and-sent"></div>
+      <div class="output-inbox-and-sent"></div>
     </div>
   </body>
 </html>
